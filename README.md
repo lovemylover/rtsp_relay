@@ -1,14 +1,3 @@
----
-AIGC:
-  ContentProducer: '001191110102MAD55U9H0F10002'
-  ContentPropagator: '001191110102MAD55U9H0F10002'
-  Label: '1'
-  ProduceID: '5fbe0d90-b35e-48d6-a5fb-ef40cef9ff61'
-  PropagateID: '5fbe0d90-b35e-48d6-a5fb-ef40cef9ff61'
-  ReservedCode1: '76803cba-5529-4f20-a15b-7733d032f650'
-  ReservedCode2: '76803cba-5529-4f20-a15b-7733d032f650'
----
-
 # rtsp-relay
 
 纯 C++17 实现的 RTSP 拉流转发服务器，零外部依赖。通过 HTTP API 动态管理流，支持单节点 1000 路转发、500 路接入。
