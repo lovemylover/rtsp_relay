@@ -4,6 +4,7 @@
 #include <errno.h>
 #include <string.h>
 #include <sys/socket.h>
+#include <netinet/in.h>
 #include <netinet/tcp.h>
 
 namespace rtsp_relay {
