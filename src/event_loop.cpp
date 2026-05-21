@@ -6,12 +6,13 @@
 #include <string.h>
 #include <chrono>
 #include <algorithm>
-#include <sys/event.h>  // macOS kqueue (also works for level-triggered)
 #include <thread>
 
 #if RTSP_RELAY_LINUX
 #include <sys/epoll.h>
 #include <sys/eventfd.h>
+#elif RTSP_RELAY_MACOS
+#include <sys/event.h>
 #endif
 
 namespace rtsp_relay {
