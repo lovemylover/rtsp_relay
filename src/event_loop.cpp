@@ -4,6 +4,7 @@
 #include <fcntl.h>
 #include <errno.h>
 #include <string.h>
+#include <cstdio>
 #include <chrono>
 #include <algorithm>
 #include <thread>
